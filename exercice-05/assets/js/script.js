@@ -1,4 +1,4 @@
-function rose() {
+function pink() {
     document.getElementById("text").style.color = "pink";
 }
 
@@ -17,3 +17,9 @@ function bold() {
 function italic() {
     document.getElementById("text").style.fontStyle = "italic";
 }
+
+
+
+// function changeColor(value) {
+//     document.getElementById("text").style.color = `${value}`;
+// }
