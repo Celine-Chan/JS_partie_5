@@ -1,5 +1,10 @@
+//const changeScrollElement = document.getElementById("pText");
+
 function textBigger(){
-     let changeScroll = document.getElementById("text");
-     changeScroll.style.transform = "scale(1.5)";
-     
+     let changeScrollElement = document.getElementById("pText");
+     // changeScroll.style.transform = "scale(1.5)";
+     changeScrollElement.style.fontSize = "2rem";
 }
+
+window.addEventListener("wheel", textBigger)
+//document.getElementById("pText").onclick = textBigger;
