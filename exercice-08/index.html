@@ -13,25 +13,24 @@
 
     <div>
 
-        <form action="" method="post">
-
-            <div class="text-center">
+        <form action="" method="post" id="parentForm" class="text-center">
 
                 <p>Identification</p>
 
-                <div>
-                    <label for="name">Prénom :</label>
-                    <input type="text" id="name" name="name">
+                <div id="formNode">
+
+                    <div>
+                        <label for="name">Prénom :</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div>
+                        <label for="age">Age :</label>
+                        <input type="number" id="age" name="age">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="age">Age :</label>
-                    <input type="number" id="age" name="age">
-                </div>
-
-                <button type="Button" class="btn btn-primary" id="submitButton" onclick="cloneForm()">+</button>
-
-            </div>
+                <button type="Button" class="btn btn-primary" id="formButton">+</button>
 
         </form>
 
