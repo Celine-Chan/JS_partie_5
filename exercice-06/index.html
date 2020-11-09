@@ -21,17 +21,17 @@
 
                 <div>
                     <label for="name">Nom :</label>
-                    <input type="text" id="name" name="name" onfocus="addfocus()">
+                    <input type="text" id="name" name="name" onfocus="celineAddBorder(this)" onblur="celineRemoveBorder(this)">
                 </div>
 
                 <div>
                     <label for="mail">Mail :</label>
-                    <input type="mail" id="mail" name="mail" onfocus="addfocus()">
+                    <input type="mail" id="mail" name="mail" onfocus="celineAddBorder(this)" onblur="celineRemoveBorder(this)">
                 </div>
 
                 <div>
                     <label for="age">Age :</label>
-                    <input type="number" id="age" name="age" onfocus="addfocus()">
+                    <input type="number" id="age" name="age" onfocus="celineAddBorder(this)" onblur="celineRemoveBorder(this)">
                 </div>
 
                 <button type="Button" class="btn btn-primary" id="submitButton">Envoyer</button>

@@ -1,11 +1,10 @@
-function addFocus() {
-    document.getElementById(name).focus();
+// le "this" en html renvoie a "element" en js
+function celineAddBorder(element) {
+    element.style.border = "6px solid red";
 }
 
-function addfocus() {
-    document.getElementById(mail).focus();
+function celineRemoveBorder(element) {
+    element.style.border = "";
 }
 
-function addFocus() {
-    document.getElementById(age).focus();
-}
+
